@@ -1,3 +1,10 @@
+*{
+	border:0;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
 body{
 	background-color:yellow;
 }
@@ -11,6 +18,92 @@ h1{
 .hi{
 	margin-left:42%;
 }
+
+.intro{
+	margin-top:60px;
+}
+
+.intro2{
+	margin-top:60px;
+	margin-bottom:40px;
+}
+
+
+p{
+	font-family: 'Crete Round', serif;
+	color:black
+	margin-left:16.66%;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.5;
+}
+
+.content{
+	margin-left:25%;
+	margin-top: 80px;
+	margin-bottom:80px;
+}
+
+.content2{
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.intro2 p{
+	padding:20px;
+}
+.graphic1{
+	width:100%;
+	height:180px;
+	background-color: black;
+	color: yellow;
+	padding: 40px;
+}
+
+.instruction{
+	width:35%;
+	height:40px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius:25px;
+	font-family: 'Raleway', sans-serif;
+	margin-top:4%;
+	display: block;
+	margin-left:33.33%;
+}
+
+.content-img{
+	margin-top:10%;
+	display:inline-block;
+	position:relative;
+	padding:20px;
+	margin-top:30px;
+}
+
+.content-img img{
+	border-radius:20px;
+}
+
+.hunt{
+	background-image:url("img/The hunt/18.jpg");
+}
+
+a img:hover{
+	width:32.8%;
+	transition: all 500ms ease;
+}
+
+.intro2 a img:hover{
+	width:110px;
+	transition: all 900ms ease;
+}
+
+.graphic1:hover{
+	color:white;
+	transition: all 1300ms ease;
+}
+
 
 /*Layout*/
 
@@ -82,3 +175,5 @@ h1{
 .col-12{
     width:100%;
 }
+
+
