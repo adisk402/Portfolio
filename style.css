@@ -13,6 +13,7 @@ h1{
 	font-family: 'Bree Serif', serif;
 	text-align: center;
 	font-size:60px;
+	margin-bottom: 20px;
 }
 
 .hi{
@@ -23,9 +24,10 @@ h1{
 	margin-top:60px;
 }
 
+
 .intro2{
-	margin-top:60px;
-	margin-bottom:40px;
+	margin-top:40px;
+	margin-bottom:0px;
 }
 
 
@@ -39,13 +41,13 @@ p{
 
 .content{
 	margin-left:25%;
-	margin-top: 80px;
+	margin-top: 60px;
 	margin-bottom:80px;
 }
 
 .content2{
-	margin-left:50px;
-	margin-right:50px;
+	margin-left:25%;
+	margin-bottom:40px;
 }
 
 .intro2 p{
@@ -57,6 +59,19 @@ p{
 	background-color: black;
 	color: yellow;
 	padding: 40px;
+	text-align: center;
+}
+
+.down{
+	bottom:0%;
+	position: relative;
+	margin-top:60px;
+}
+
+a{
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
 }
 
 .instruction{
@@ -82,26 +97,30 @@ p{
 }
 
 .content-img img{
-	border-radius:20px;
+	border-radius:40px;
+	padding:20px;
 }
 
 .hunt{
 	background-image:url("img/The hunt/18.jpg");
 }
 
+
 a img:hover{
-	width:32.8%;
-	transition: all 500ms ease;
+	padding:15px;
+	transition: all 600ms ease;
 }
 
 .intro2 a img:hover{
-	width:110px;
+	width:170px;
 	transition: all 900ms ease;
+	background-color:transparent;
+	padding:0px;
 }
 
-.graphic1:hover{
+.graphic1 h1:hover{
 	color:white;
-	transition: all 1300ms ease;
+	transition: all 1000ms ease;
 }
 
 
