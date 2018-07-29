@@ -17,7 +17,8 @@ h1{
 }
 
 .hi{
-	margin-left:42%;
+	margin-left:42.5%;
+	width:12%;
 }
 
 .intro{
@@ -81,7 +82,7 @@ a{
 }
 
 .instruction{
-	width:35%;
+	width:44%;
 	height:40px;
 	text-align: center;
 	background-color: black;
@@ -91,7 +92,7 @@ a{
 	font-family: 'Raleway', sans-serif;
 	margin-top:4%;
 	display: block;
-	margin-left:33.33%;
+	margin-left:28%;
 }
 
 .content-img{
@@ -199,5 +200,224 @@ a img:hover{
 
 .col-12{
     width:100%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.instruction{
+	width:44%;
+	height:40px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius:25px;
+	font-family: 'Raleway', sans-serif;
+	margin-top:4%;
+	display: block;
+	margin-left:28%;
+	font-size:13px;
+}
+
+h1{
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+	font-size:40px;
+	margin-bottom: 20px;
+}
+
+.hi{
+	margin-left:42.5%;
+	width:15%;
+}
+
+.graphic1{
+	width:100%;
+	height:140px;
+	background-color: black;
+	color: yellow;
+	padding: 40px;
+	text-align: center;
+}
+
+
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	.instruction{
+	width:57%;
+	height:40px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius:25px;
+	font-family: 'Raleway', sans-serif;
+	margin-top:4%;
+	display: block;
+	margin-left:21.5%;
+	font-size:13px;
+}
+
+h1{
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+	font-size:40px;
+	margin-bottom: 20px;
+}
+
+.hi{
+	margin-left:39.5%;
+	width:18%;
+}
+
+.content2{
+	margin-left:12.5%;
+	margin-bottom:40px;
+}
+
+.col-6{
+    width:75%;
+}
+.col-4{
+    width:50%;
+}
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.instruction{
+	width:80%;
+	height:40px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius:25px;
+	font-family: 'Raleway', sans-serif;
+	margin-top:4%;
+	display: block;
+	margin-left:10%;
+	font-size:13px;
+}
+
+h1{
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+	font-size:40px;
+	margin-bottom: 20px;
+}
+
+.hi{
+	margin-left:37.5%;
+	width:22%;
+}
+
+.content2{
+	margin-left:12.5%;
+	margin-bottom:40px;
+}
+
+.col-6{
+    width:75%;
+}
+.col-4{
+    width:50%;
+}
+
+.graphic1{
+	width:100%;
+	height:100px;
+	background-color: black;
+	color: yellow;
+	padding: 20px;
+	text-align: center;
+}
+
+.down{
+	bottom:0%;
+	position: relative;
+	margin-top:60px;
+	height:140px;
+}
+
+.content-img{
+	display:inline-block;
+	position:relative;
+	padding:10px;
+	margin-top:5px;
+}
+
+}
+
+@media only screen and (max-width: 450px) {
+
+	.instruction{
+	width:86%;
+	height:40px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius:25px;
+	font-family: 'Raleway', sans-serif;
+	margin-top:4%;
+	display: block;
+	margin-left:7%;
+	font-size:13px;
+}
+
+
+h1{
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+	font-size:40px;
+	margin-bottom: 20px;
+}
+
+.hi{
+	margin-left:34.5%;
+	width:30%;
+}
+
+.content2{
+	margin-left:12.5%;
+	margin-bottom:40px;
+}
+
+.col-6{
+    width:75%;
+}
+.col-4{
+    width:100%;
+}
+
+.graphic1{
+	width:100%;
+	height:100px;
+	background-color: black;
+	color: yellow;
+	padding: 20px;
+	text-align: center;
+}
+
+.down{
+	bottom:0%;
+	position: relative;
+	margin-top:60px;
+	height:140px;
+}
+
+.content-img{
+	display:inline-block;
+	position:relative;
+	padding:20px;
+	margin-top:5px;
+}
+
 }
 
