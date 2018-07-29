@@ -22,6 +22,7 @@ h1{
 
 .intro{
 	margin-top:60px;
+	margin-bottom:30px;
 }
 
 
@@ -73,6 +74,10 @@ a{
 	color:white;
 	font-family: 'Raleway', sans-serif;
 	text-decoration: none;
+}
+
+.info a{
+	color:red;
 }
 
 .instruction{
@@ -195,5 +200,4 @@ a img:hover{
 .col-12{
     width:100%;
 }
-
 
