@@ -114,6 +114,7 @@ a{
 .content-img img{
 	border-radius:40px;
 	padding:20px;
+	vertical-align: top;
 }
 
 .hunt{
@@ -213,6 +214,7 @@ a img:hover{
     width:100%;
 }
 
+
 @media only screen and (max-width: 1000px) {
 
 	.instruction{
@@ -306,7 +308,7 @@ h2{
 .col-6{
     width:75%;
 }
-.col-4{
+.col-3{
     width:50%;
 }
 
@@ -357,7 +359,7 @@ h2{
 .col-6{
     width:75%;
 }
-.col-4{
+.col-3{
     width:50%;
 }
 
@@ -431,7 +433,7 @@ h2{
 .col-6{
     width:100%;
 }
-.col-4{
+.col-3{
     width:100%;
 }
 
