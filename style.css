@@ -60,6 +60,11 @@ p{
 	margin-bottom:40px;
 }
 
+.content3{
+	margin-left:1%;
+	margin-bottom:40px;
+}
+
 
 .intro2 p{
 	padding:20px;
@@ -305,6 +310,11 @@ h2{
 	margin-bottom:40px;
 }
 
+.content3{
+	margin-left:12.5%;
+	margin-bottom:40px;
+}
+
 .col-6{
     width:75%;
 }
@@ -352,6 +362,10 @@ h2{
 }
 
 .content2{
+	margin-left:12.5%;
+	margin-bottom:40px;
+}
+.content3{
 	margin-left:12.5%;
 	margin-bottom:40px;
 }
@@ -426,9 +440,15 @@ h2{
 }
 
 .content2{
-	margin-left:12.5%;
+	margin-left:0%;
 	margin-bottom:40px;
 }
+
+.content3{
+	margin-left:0%;
+	margin-bottom:40px;
+}
+
 
 .col-6{
     width:100%;
